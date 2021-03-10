@@ -31,12 +31,12 @@
      <h1>伍家宏</h1>
      <div>
          <span>
-             <img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/phone-solid.svg" width="18px">
+             <img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/phone-solid.svg" width="18px">
              155210006279
          </span>
          ·
          <span>
-             <img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/envelope-solid.svg" width="18px">
+             <img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/envelope-solid.svg" width="18px">
              wu657983699@gmail.com
          </span>
      </div>
@@ -46,7 +46,7 @@
             <center>
      <div>
          <span>
-             <img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/profile.png" width="120px">
+             <img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/profile.png" width="120px">
          </span>
      </div>
  </center>
@@ -54,71 +54,49 @@
         </tr>
     </table>
 </html>
-<h2 id="-个人信息"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/info-circle-solid.svg" width="30px"> 个人信息</h2>
+<h2 id="-个人信息"><img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/info-circle-solid.svg" width="30px"> 个人信息</h2>
 <ul>
 <li>男，1994 年出生</li>
 <li>求职意向：Java 研发工程师</li>
-<li>工作经验：3 年</li>
-<li>期望薪资：0k</li>
+<li>工作经验：2.5 年</li>
 </ul>
-<h2 id="-教育经历"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/graduation-cap-solid.svg" width="30px"> 教育经历</h2>
+<h2 id="-教育经历"><img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/graduation-cap-solid.svg" width="30px"> 教育经历</h2>
 <ul>
 <li>学士：广东工业大学，物联网工程，2014.9~2018.7</li>
-<li>绩点：***，年级前 100%</li>
-<li>通过了 CET4/6 英语等级考试</li>
+<li>通过了 CET4 英语等级考试</li>
 </ul>
-<h2 id="-工作经历"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/briefcase-solid.svg" width="30px"> 工作经历</h2>
+<h2 id="-工作经历"><img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/briefcase-solid.svg" width="30px"> 工作经历</h2>
 <ul>
 <li>平安科技深圳有限公司，集团系统开发一部，开发工程师，2018.7~至今</li>
 </ul>
-<h2 id="-个人成就"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/briefcase-solid.svg" width="30px"> 个人成就</h2>
+<h2 id="-技能清单"><img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/tools-solid.svg" width="30px"> 技能清单</h2>
 <ul>
-<li>每年绩效达头部30%，30人团队主力开发</li>
-<li>高并发web应用架构设计落地经验</li>
-<li>从0到1学习PeopleSoft语言，手撕Cobol语言</li>
-<li>对 coding 有热情，在项目迭代，性能优化，疑难问题排查等方面都有可靠的攻坚能力</li>
+<li>★★★ 熟悉JVM内存管理、多线程、锁、集合等基础框架</li>
+<li>★★★ 熟悉掌握Spring、SringMvc、Mybatis、Dubbo等主流开发框架，以及Maven、git等项目管理工具</li>
+<li>★★★ 熟悉关系型数据库Oracle、Postgresql，要大量sql优化经验</li>
+<li>★★☆ 熟悉Redis、Kafka、ZooKeeper等中间件的使用和原理，掌握Elasticsearch的使用方法</li>
+<li>★★☆ 熟悉Nginx部署，了解Kubernetes相关概念</li>
 </ul>
-<h2 id="-项目经历"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/project-diagram-solid.svg" width="30px"> 项目经历</h2>
+<h2 id="-项目经历"><img src="file:////Users/rousseauwu/Desktop/resume/2021win/assets/project-diagram-solid.svg" width="30px"> 项目经历</h2>
 <ul>
-<li>
-<p><strong>PEOPLESOFT人事系统数据迁移与回写</strong></p>
-<p><em>技术栈</em>：PeopleSoft，Oracle</p>
-<ul>
-<li>项目描述：PS系统是平安集团使用了10年以上的人力资源管理系统，业务包括人员信息管理、组织岗位管理、职务管理、考勤、算薪及报表。</li>
-<li>主要任务：梳理人岗架业务及表结构；新旧系统数据交互设计；数据回写流程设计与落地；回写任务状态监控；数据落地准确性监控。</li>
-<li>涉及技术：
-<ul>
-<li>数据库表索引优化</li>
-</ul>
-</li>
-</ul>
-<!--
-1、接近100张表，数据模型创建管理ezdml
-2、两个应用数据库使用同一数据库，分批次出数据，分批次回写数据
-3、主任务监控源系统运行情况，数据量等，根据数据量启动相应数量的回写任务个数
-4、回写任务失败发邮件；定时任务使用sql对比两个系统的相关模块数据，去除正在回写数据，并发出警告邮件；
-业务逻辑繁多，优化业务逻辑，去掉无用功能
-经过测试发现，用户重复保存数据产生大量重复流水数据，改为半小时内的最终结果
-单条数据回写慢，改为批处理，优化表索引，优化sql，事务处理，归档处理
-索引：b数索引，列基数大
-位索引，列基数小
-https://blog.csdn.net/WuLex/article/details/79394072
-回写可能存在失败，加上重试机制（失败3次则视为最终失败）;回写任务失败邮件监控;回写数据准确性监控;数据阻塞临时处理页面
--->
-</li>
 <li>
 <p><strong>考勤系统升级改造</strong></p>
-<p><em>技术栈</em>：Java，Kafka，Redis，多线程</p>
+<p><em>技术栈</em>：SSM、Dubbo、Kafka、Redis、多线程、Oracle</p>
 <ul>
-<li>项目描述：旧有考勤打卡系统采用面对数据库编程的架构，并发量和吞吐量都很低，用户使用感受差，投诉不断。通过一系列改造，考勤移动系统用户满意度提升，高峰期轻易支持500QPS，用户量也节节上升</li>
-<li>主要任务：提高系统并发量和吞吐量，提升系统响应速度，提升用户满意度
+<li>项目描述：旧有考勤打卡系统采用面对数据库编程的架构，并发量和吞吐量都很低，用户使用感受差，投诉不断。通过缓存、消息队列等技术对后端接口进行改造，高峰期轻易支持800QPS；在网关层增加限流及熔断功能，控制接口并发量，主要是避免下游系统崩溃。项目改造完成后，考勤功能故障从月均5次降至几乎为0，用户满意度节节上升。同时，系统提供考勤监控功能，向管理层发送考勤报表。</li>
+<li>涉及技术：
 <ul>
-<li>涉及技术：</li>
-<li>抛弃面对数据库编程</li>
 <li>基于Dubbo、多线程等技术，获取用户信息并处理业务逻辑</li>
 <li>使用Redis漏斗限流功能，实现简单的用户请求限流</li>
-<li>基于Kafka消息队列功能缓存起用户的请求数据，客户端使用poll模式请求，起到削峰作用；另外，Kafka也能保证顺序写数据</li>
+<li>基于Kafka消息队列功能缓存起用户的请求数据，同时保证个人的考勤记录是连续的</li>
 <li>使用nginx做负载均衡与面对接口的请求限流</li>
+</ul>
+</li>
+<li>主要任务：
+<ul>
+<li>分析业务流程，优化业务逻辑，业务需求分析</li>
+<li>负责打卡请假接口优化</li>
+<li>负责其他考勤系统常规需求</li>
 </ul>
 </li>
 </ul>
@@ -138,33 +116,71 @@ https://blog.csdn.net/WuLex/article/details/79394072
      -->
 <ul>
 <li>
-<p><strong>bi智能报表-热图</strong></p>
-<p><em>技术栈</em>：Spring、Elasticsearch、Redis</p>
+<p><strong>中旅薪酬板块设计实现及智能报表优化</strong></p>
+<p><em>技术栈</em>：SSM、Dubbo、Elasticsearch、Redis、PostgreSql</p>
 <ul>
-<li>项目描述：薪酬大宽表列数多，mmp型数据库对于关系型</li>
-</ul>
-<!-- redis缓存数据，穿透，雪崩，解决方案 -->
-</li>
-<li>
-<p><strong>标签工厂</strong></p>
-<p><em>技术栈</em>：spring、Elasticsearch、Redis</p>
-</li>
-<li>
-<p><strong>to b薪酬模块</strong></p>
-<p><em>技术栈</em>：spring、Elasticsearch、Redis、ElasticJob</p>
-</li>
-<li>
-<p><strong>算薪源码翻译</strong></p>
-<p><em>技术栈</em>：Cobol，Java</p>
-</li>
-</ul>
-<h2 id="-技能清单"><img src="file:////Users/rousseauwu/Desktop/resume/Markdown-Resume/assets/tools-solid.svg" width="30px"> 技能清单</h2>
+<li>项目描述：PS薪酬功能是核心模块，但ps提供的webservice接口性能差且开发灵活度低，严重浪费了薪酬数据的价值。为了满足各种查询需求，团队决定使用数仓加工配合ElasticSearch作搜索引擎的架构。经过一系列改造后，薪酬报表模块最差响应时间从20秒到100毫秒，薪酬报表模块实质性地赋能薪酬管理岗，方便用户填报查询薪酬信息。另外，还帮助中旅集团实现薪酬模块的移动化，主要实现了个人保税申报、薪资福利查询等功能。</li>
+<li>涉及技术：
 <ul>
-<li>★★★ Java</li>
-<li>★★☆ Spring、SpringBoot、Dubbo</li>
-<li>★★★ Oracle、Postgresql</li>
-<li>★★★ Redis、Kafka、Elasticsearch、ZooKeeper</li>
-<li>★★☆ Nginx、tomcat、k8s</li>
+<li>基于Es开发数据批量导入及查询接口</li>
+<li>基于Redis缓存优化请求响应</li>
+<li>基于左右值无限极分类实现薪酬科目树</li>
+<li>基于Elastic Job实现同步数据任务</li>
+</ul>
+</li>
+<li>主要任务：
+<ul>
+<li>负责Es相关接口开发</li>
+<li>负责薪酬科目树的实现</li>
+<li>负责优化查询sql</li>
+</ul>
+</li>
+</ul>
+<!-- redis缓存数据，穿透，雪崩，解决方案 redis分布式锁：setnx ex,lua 脚步，redlock-->
+<!-- es快速查询，更多时间处理业务计算，相关性搜索。部门架构岗位姓名 -->
+<!-- Yellowbrick Data is a US-based database company delivering massively parallel processing (MPP) data warehouse and SQL analytics products. -->
+</li>
+<li>
+<p><strong>PEOPLESOFT人事系统数据迁移与回写</strong></p>
+<p><em>技术栈</em>：PeopleSoft、Oracle</p>
+<ul>
+<li>项目描述：平安PS系统经过10年迭代，应用性能逐渐满足不了业务需求。业务方要求借鉴ps优秀的人力资源管理理念并尽量保留其人力资源数据，设计出一套类似ps的Web系统，并引用新的管理方法。经过5个月的努力，新系统顺利上线。数据迁移回写组件在不断优化下，回写时间粒度从小时到分钟。监控模块屡次发次重要警告，避免大规模算薪错误。</li>
+<li>涉及技术：
+<ul>
+<li>Oracle、PeopleSoft、Application Engine</li>
+</ul>
+</li>
+<li>主要任务：
+<ul>
+<li>梳理人岗架三大核心模块业务逻辑，阅读源码，整理表结构</li>
+<li>新旧系统数据交互设计</li>
+<li>数据回写流程设计与落地</li>
+<li>数据监控程序开发：回写任务状态监控，数据落地准确性监控</li>
+</ul>
+</li>
+</ul>
+<!--
+PS系统是平安集团使用了10年以上的人力资源管理系统，业务包括人员信息管理、组织岗位管理、职务管理、考勤、算薪及各类报表。
+1、接近100张表，数据模型创建管理ezdml
+2、两个应用数据库使用同一数据库，分批次出数据，分批次回写数据
+3、主任务监控源系统运行情况，数据量等，根据数据量启动相应数量的回写任务个数
+4、回写任务失败发邮件；定时任务使用sql对比两个系统的相关模块数据，去除正在回写数据，并发出警告邮件；
+业务逻辑繁多，优化业务逻辑，去掉无用功能
+经过测试发现，用户重复保存数据产生大量重复流水数据，改为半小时内的最终结果
+单条数据回写慢，改为批处理，优化表索引，优化sql，事务处理，归档处理
+索引：b数索引，列基数大
+位索引，列基数小
+https://blog.csdn.net/WuLex/article/details/79394072
+回写可能存在失败，加上重试机制（失败3次则视为最终失败）;回写任务失败邮件监控;回写数据准确性监控;数据阻塞临时处理页面
+-->
+</li>
+<li>
+<p><strong>其他项目</strong></p>
+<ul>
+<li><em>算薪源码翻译</em>：Cobol，Java</li>
+<li><em>标签工厂</em>：Java</li>
+</ul>
+</li>
 </ul>
 
     </body>
