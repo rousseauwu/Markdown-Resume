@@ -7,12 +7,12 @@
      <h1>伍家宏</h1>
      <div>
          <span>
-             <img src="assets/phone-solid.svg" width="18px">
-             155210006279
+             <img src="assets/phone-solid.svg" width="15px">
+             15521006279
          </span>
          ·
          <span>
-             <img src="assets/envelope-solid.svg" width="18px">
+             <img src="assets/envelope-solid.svg" width="16px">
              wu657983699@gmail.com
          </span>
      </div>
@@ -31,7 +31,7 @@
     </table>
 </html>
 
- ## <img src="assets/info-circle-solid.svg" width="20p x"> 个人信息
+ ## <img src="assets/info-circle-solid.svg" width="20px"> 个人信息
 
  - 男，1994 年出生
  - 求职意向：Java 研发工程师
